@@ -288,7 +288,7 @@ task.spawn(function()
     while true do
         if auto or holdingClick or holdingKey then
             spawnBlock()
-            task.wait(0.10) 
+            task.wait(0.10) -- ⚡ NEW SPEED
         else
             task.wait(0.1)
         end
